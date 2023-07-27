@@ -154,4 +154,4 @@ We welcome feedback, bug reports, and contributions from the community! If you e
 
 ## License
 
-EasyTransition is released under the MIT License. See the [LICENSE](https://github.com/georgesamirmansour/easy_transition/blob/main/LICENSE) file for more details.
+EasyTransition is released under the MIT License. See the [LICENSE](https://github.com/georgesamirmansour/easyTransition/blob/master/LICENSE) file for more details.
