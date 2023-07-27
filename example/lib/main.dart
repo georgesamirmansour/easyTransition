@@ -26,7 +26,7 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            EasyTransition(
+            TransitionEasy(
               child: const NextPage(),
               customTransitionModule: EasyFadeInTransition(),
             ).dynamicNavigation(context);
@@ -48,7 +48,7 @@ class NextPage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            EasyTransition(
+            TransitionEasy(
               child: const DialogScreen(),
               customTransitionModule: EasyFadeInTransition(),
             ).dynamicNavigation(context, isDialog: true);

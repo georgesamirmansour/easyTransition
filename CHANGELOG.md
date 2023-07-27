@@ -1,5 +1,3 @@
-Sure, here's a sample CHANGELOG for the EasyTransition library:
-
 Changelog
 =========
 
@@ -7,14 +5,18 @@ All notable changes to this project will be documented in this file.
 
 ## [released]
 
-### Added
-- Support for different types of page route transitions.
-- Support for dialog route transitions.
+## [1.0.1] - 2023-07-27
+- update it to TransitionEasy
+
 
 ## [1.0.0] - 2023-07-27
 
 ### Added
-- Initial release of EasyTransition library.
+- Support for different types of page route transitions.
+- Support for dialog route transitions.
+
+### Added
+- Initial release of TransitionEasy library.
 - Support for slide right transition animation.
 - Support for slide left transition animation.
 - Support for slide top transition animation.
@@ -39,4 +41,3 @@ All notable changes to this project will be documented in this file.
 [released]: https://github.com/georgesamirmansour/easyTransition
 [1.0.0]: https://github.com/georgesamirmansour/easyTransition
 
-Please note that this is just a sample CHANGELOG and you should update it with actual changes and version numbers based on your project's development and releases.

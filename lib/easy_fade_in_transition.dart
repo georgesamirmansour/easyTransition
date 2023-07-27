@@ -1,5 +1,6 @@
-import 'package:easy_transition/custom_transition_module.dart';
 import 'package:flutter/material.dart';
+
+import 'custom_transition_module.dart';
 
 /// A concrete implementation of [CustomTransitionModule] for a fade-in transition animation.
 class EasyFadeInTransition extends CustomTransitionModule {

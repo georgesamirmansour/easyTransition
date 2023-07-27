@@ -1,6 +1,6 @@
-# EasyTransition
+# TransitionEasy
 
-EasyTransition is a Flutter library that simplifies the implementation of custom transition animations for page routes and dialog routes. It provides an easy-to-use API for creating various transition animations, making it convenient to add engaging and visually appealing transitions to your Flutter app.
+TransitionEasy is a Flutter library that simplifies the implementation of custom transition animations for page routes and dialog routes. It provides an easy-to-use API for creating various transition animations, making it convenient to add engaging and visually appealing transitions to your Flutter app.
 
 ## Features
 
@@ -13,11 +13,11 @@ EasyTransition is a Flutter library that simplifies the implementation of custom
 
 ### Installation
 
-To use EasyTransition in your Flutter project, add the following dependency to your `pubspec.yaml` file:
+To use TransitionEasy in your Flutter project, add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  easy_transition: ^1.0.0
+  easy_transition: ^1.0.1
 ```
 
 Then, run `flutter pub get` in your terminal to fetch the package.
@@ -31,9 +31,12 @@ import 'package:flutter/material.dart';
 import 'package:easy_transition/easy_transition.dart';
 ```
 
-2. Wrap your root widget with the `MaterialApp` or `CupertinoApp` widget, and use the `EasyTransition` class to handle navigation with custom transitions. For example:
+2. Wrap your root widget with the `MaterialApp` or `CupertinoApp` widget, and use the `TransitionEasy` class to handle navigation with custom transitions. For example:
 
 ```dart
+import 'package:easy_transition/easy_fade_in_transition.dart';
+import 'package:easy_transition/easy_transition.dart';
+import 'package:flutter/material.dart';
 import 'package:easy_transition/easy_fade_in_transition.dart';
 import 'package:easy_transition/easy_transition.dart';
 import 'package:flutter/material.dart';
@@ -58,11 +61,11 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('EasyTransition Demo')),
+      appBar: AppBar(title: const Text('TransitionEasy Demo')),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            EasyTransition(
+            TransitionEasy(
               child: const NextPage(),
               customTransitionModule: EasyFadeInTransition(),
             ).dynamicNavigation(context);
@@ -84,7 +87,7 @@ class NextPage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            EasyTransition(
+            TransitionEasy(
               child: const DialogScreen(),
               customTransitionModule: EasyFadeInTransition(),
             ).dynamicNavigation(context, isDialog: true);
@@ -111,7 +114,7 @@ class DialogScreen extends StatelessWidget {
 }
 ```
 
-In this example, we've used the `EasyFadeInTransition` custom transition module to add a fade-in animation when navigating between pages and when showing a dialog. You can easily switch to other custom transition modules provided by EasyTransition to try different animations.
+In this example, we've used the `EasyFadeInTransition` custom transition module to add a fade-in animation when navigating between pages and when showing a dialog. You can easily switch to other custom transition modules provided by TransitionEasy to try different animations.
 
 ## CustomTransitionModule Reference
 
@@ -150,8 +153,8 @@ for page routes.
 
 ## Feedback and Contributions
 
-We welcome feedback, bug reports, and contributions from the community! If you encounter any issues or have suggestions to improve EasyTransition, please feel free to open an issue or submit a pull request on our GitHub repository.
+We welcome feedback, bug reports, and contributions from the community! If you encounter any issues or have suggestions to improve TransitionEasy, please feel free to open an issue or submit a pull request on our GitHub repository.
 
 ## License
 
-EasyTransition is released under the MIT License. See the [LICENSE](https://github.com/georgesamirmansour/easyTransition/blob/master/LICENSE) file for more details.
+TransitionEasy is released under the MIT License. See the [LICENSE](https://github.com/georgesamirmansour/easyTransition/blob/master/LICENSE) file for more details.

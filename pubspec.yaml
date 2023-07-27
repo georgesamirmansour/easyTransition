@@ -1,6 +1,6 @@
-name: easy_transition
+name: transition_easy
 description: EasyTransition is a Flutter library that simplifies the implementation of custom transition animations for page routes and dialog routes. It provides an easy-to-use API for creating various transition animations, making it convenient to add engaging and visually appealing transitions to your Flutter app.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/georgesamirmansour/easyTransition
 
 environment:

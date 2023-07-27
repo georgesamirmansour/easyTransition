@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'custom_transition_module.dart';
 
-class EasyTransition {
+class TransitionEasy {
   final Widget child;
   final CustomTransitionModule customTransitionModule;
   final Duration duration;
@@ -16,7 +16,7 @@ class EasyTransition {
   /// The [duration] sets the total duration of the transition animation. Default is 300 milliseconds.
   ///
   /// The [curve] defines the easing curve for the transition animation. Default is [Curves.linear].
-  EasyTransition({
+  TransitionEasy({
     required this.child,
     required this.customTransitionModule,
     this.duration = const Duration(milliseconds: 300),
