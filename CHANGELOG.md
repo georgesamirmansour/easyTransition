@@ -5,7 +5,10 @@ All notable changes to this project will be documented in this file.
 
 ## [released]
 
-## [1.0.1] - 2023-07-27
+## [1.0.2]
+- update pubspec.yaml description
+
+## [1.0.1] 
 - update it to TransitionEasy
 
 
