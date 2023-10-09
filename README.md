@@ -17,7 +17,7 @@ To use TransitionEasy in your Flutter project, add the following dependency to y
 
 ```yaml
 dependencies:
-  transition_easy: ^1.0.6
+  transition_easy: ^1.0.8
 ```
 
 Then, run `flutter pub get` in your terminal to fetch the package.
