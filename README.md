@@ -17,7 +17,7 @@ To use TransitionEasy in your Flutter project, add the following dependency to y
 
 ```yaml
 dependencies:
-  easy_transition: ^1.0.1
+  transition_easy: ^1.0.6
 ```
 
 Then, run `flutter pub get` in your terminal to fetch the package.
@@ -28,17 +28,17 @@ Then, run `flutter pub get` in your terminal to fetch the package.
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:easy_transition/easy_transition.dart';
+import 'package:transition_easy/easy_transition.dart';
 ```
 
 2. Wrap your root widget with the `MaterialApp` or `CupertinoApp` widget, and use the `TransitionEasy` class to handle navigation with custom transitions. For example:
 
 ```dart
-import 'package:easy_transition/easy_fade_in_transition.dart';
-import 'package:easy_transition/easy_transition.dart';
+import 'package:transition_easy/easy_fade_in_transition.dart';
+import 'package:transition_easy/easy_transition.dart';
 import 'package:flutter/material.dart';
-import 'package:easy_transition/easy_fade_in_transition.dart';
-import 'package:easy_transition/easy_transition.dart';
+import 'package:transition_easy/easy_fade_in_transition.dart';
+import 'package:transition_easy/easy_transition.dart';
 import 'package:flutter/material.dart';
 
 void main() {

@@ -1,5 +1,5 @@
-import 'package:easy_transition/easy_fade_in_transition.dart';
-import 'package:easy_transition/easy_transition.dart';
+import 'package:transition_easy/easy_fade_in_transition.dart';
+import 'package:transition_easy/easy_transition.dart';
 import 'package:flutter/material.dart';
 
 void main() {

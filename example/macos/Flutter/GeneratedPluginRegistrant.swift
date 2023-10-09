@@ -5,7 +5,7 @@
 import FlutterMacOS
 import Foundation
 
-import easy_transition
+import transition_easy
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   EasyTransitionPlugin.register(with: registry.registrar(forPlugin: "EasyTransitionPlugin"))

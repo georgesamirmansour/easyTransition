@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 
 ## [released]
 
+## [1.0.7]
+- fixed issue with ios build
+
+## [1.0.6]
+- fixed issue with ios build
+
+## [1.0.5]
+- fixed issue with ios build
+
+## [1.0.4]
+- fixed issue with ios build
+
 ## [1.0.3]
 - fixed issue with ios build
 

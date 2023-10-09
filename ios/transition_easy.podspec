@@ -1,9 +1,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run 'pod lib lint easy_transition.podspec' to validate before publishing.
+# Run 'pod lib lint transition_easy.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-s.name = 'easy_transition'
+s.name = 'transition_easy'
 s.version = '0.0.1'
 s.summary = ' EasyTransition Simplify custom transition animations in Flutter. Create engaging page & dialog route transitions with ease'
 s.description = <<-DESC

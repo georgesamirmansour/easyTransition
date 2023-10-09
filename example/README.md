@@ -1,6 +1,6 @@
-# easy_transition_example
+# transition_easy_example
 
-Demonstrates how to use the easy_transition plugin.
+Demonstrates how to use the transition_easy plugin.
 
 ## Getting Started
 

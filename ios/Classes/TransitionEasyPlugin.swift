@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class EasyTransitionPlugin: NSObject, FlutterPlugin {
+public class TransitionEasyPlugin: NSObject, FlutterPlugin {
  public static func register(with registrar: FlutterPluginRegistrar) {
  let channel = FlutterMethodChannel(name: "transition_easy", binaryMessenger: registrar.messenger())
- let instance = EasyTransitionPlugin()
+ let instance = TransitionEasyPlugin()
  registrar.addMethodCallDelegate(instance, channel: channel)
  }
 

@@ -1,6 +1,6 @@
 name: transition_easy
 description: EasyTransition Simplify custom transition animations in Flutter. Create engaging page & dialog route transitions with ease
-version: 1.0.3
+version: 1.0.7
 homepage: https://github.com/georgesamirmansour/easyTransition
 
 environment:

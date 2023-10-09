@@ -3,7 +3,7 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
-  easy_transition
+  transition_easy
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

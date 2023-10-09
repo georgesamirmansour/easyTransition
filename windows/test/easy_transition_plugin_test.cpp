@@ -10,7 +10,7 @@
 
 #include "easy_transition_plugin.h"
 
-namespace easy_transition {
+namespace transition_easy {
 namespace test {
 
 namespace {
@@ -40,4 +40,4 @@ TEST(EasyTransitionPlugin, GetPlatformVersion) {
 }
 
 }  // namespace test
-}  // namespace easy_transition
+}  // namespace transition_easy
