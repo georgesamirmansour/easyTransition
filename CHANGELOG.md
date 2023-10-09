@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 
 ## [released]
 
+## [1.0.3]
+- fixed issue with ios build
+
 ## [1.0.2]
 - update pubspec.yaml description
 
